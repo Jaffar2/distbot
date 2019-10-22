@@ -27,6 +27,7 @@ RUN python -m pip install robotframework-distbot
 RUN python -m pip install robotframework-seleniumlibrary
 RUN python -m pip install robotframework-databaselibrary
 RUN python -m pip install pymssql
+RUN python -m pip install robotframework-SikuliLibrary
 
 RUN apt-get remove -y build-essential python-dev python-setuptools python-pip wget
 RUN rm -rf /var/lib/apt/lists/* /var/cache/apt/*
