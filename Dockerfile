@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update -y
-RUN apt-get install -y --no-install-recommends google-chrome-stable_current_amd64.deb
+RUN apt-get install -y --no-install-recommends dpkg -i google-chrome-stable_current_amd64.deb
 RUN apt-get install -y --no-install-recommends python2.7
 RUN apt-get install -y --no-install-recommends build-essential python-dev
 RUN apt-get install -y --no-install-recommends python-setuptools
