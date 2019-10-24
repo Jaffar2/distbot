@@ -24,7 +24,7 @@ RUN apt-get install ca-certificates \
 RUN python -m pip install psutil
 RUN python -m pip install robotframework
 RUN python -m pip install robotframework-distbot
-RUN python -m pip install robotframework-extendedselenium2library
+RUN python -m pip install robotframework-seleniumlibrary
 RUN python -m pip install robotframework-databaselibrary
 RUN python -m pip install pymssql
 RUN python -m pip install robotframework-SikuliLibrary
