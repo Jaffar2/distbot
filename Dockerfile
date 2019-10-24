@@ -2,7 +2,7 @@ FROM ubuntu
 
 RUN apt-get update -y
 RUN apt-get install -y --no-install-recommends firefox
-RUN apt-get install -y --no-install-recommends python2.7
+RUN apt-get install -y --no-install-recommends python
 RUN apt-get install -y --no-install-recommends build-essential python-dev
 RUN apt-get install -y --no-install-recommends python-setuptools
 RUN apt-get install -y --no-install-recommends python-pip
