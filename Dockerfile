@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.10
+FROM python:3.7.5-alpine3.10
 
 # Setup volume for output
 VOLUME /opt/robotframework/reports
