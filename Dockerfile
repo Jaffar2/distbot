@@ -25,7 +25,7 @@ ENV ROBOT_FRAMEWORK_VERSION 3.1.2
 ENV SELENIUM_LIBRARY_VERSION 4.0.0
 ENV SSH_LIBRARY_VERSION 3.4.0
 ENV XVFB_VERSION 1.20
-ENV PYMSSQL_VERSION 2.1.4
+ENV PYMSSQL_VERSION 2.1.2
 
 # Prepare binaries to be executed
 COPY bin/chromedriver.sh /opt/robotframework/bin/chromedriver
